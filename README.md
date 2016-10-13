@@ -1,13 +1,13 @@
 Available Grammar
 =================
-  - `@TODO`
-  - [`@FIXME`](#bug-report)
-  - `@CHANGED`
-  - `@XXX`
-  - `@IDEA`
-  - `@HACK`
-  - `@NOTE`
-  - `@REVIEW`
+  - `@TODO`: Something to be done
+  - [`@FIXME`](#bug-report): Bug Report, should be corrected, Marked with :bug: Commit
+  - `@CHANGED`: Version Changes together with `@SINCE` DocComment, _Usually_ Marked with :fire: or :zap: Commits
+  - `@XXX`: Warn other programmers of problematic or misguiding code
+  - `@IDEA`: A New Idea or Proof-of-Concept, Marked with :bulb: Commit
+  - `@HACK`: Workaround or Customer Customizations, Marked with :ribbon: Commit
+  - `@NOTE`: Add attention to something Important
+  - `@REVIEW`: Needs to be Audited/Reviewed Immediately, _Usually_ Marked with :construction: Commit
 
 Bug Report
 ----------
@@ -20,7 +20,7 @@ Bug Report
     5. Environment Detail
 3. Mention the Task ID in Format `{T###}`.
 4. (optional) Add Screenshots in Format `{F###}`(_Phabricator Specific_).
-5. Commit the Comments(with :ambulance: Emoji), also include Items 2.B, 3 & 4 in Commit Message too.
+5. Commit the Comments(with :bug: Emoji), also include Items 2.B, 3 & 4 in Commit Message too.
 6. Award that Task with `Manufacturing Defect` Token(_Phabricator Specific_).
 
 Notes
