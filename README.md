@@ -31,3 +31,7 @@ Notes
 + These Kind of Bug Reports Remain in History of VCS for future References of that Scope of Code.
 + All Attached Files & Commit Reference HashTag will be Referenced in the Phabricator Task View.
 + These Audits May become Tasks Later.
+
+##### References
+  - https://en.wikipedia.org/wiki/Comment_(computer_programming)#Tags
+  - https://softwareengineering.stackexchange.com/questions/65467/what-does-xxx-mean-in-a-comment
